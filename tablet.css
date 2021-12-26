@@ -2,13 +2,8 @@
   header {
     display: flex;
     justify-content: space-between;
+    font-size: 1.9rem;
   }
-
-  footer {
-    position: absolute;
-    bottom: 0px;
-  }
-
   .title1{
       font-size: 1.5rem;
   }
@@ -20,5 +15,10 @@
 
   .card{
       width: 22%;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
   }
 }

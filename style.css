@@ -41,7 +41,7 @@ header {
   width: 15%;
   height: 100%;
   display: flex;
-  padding-left: 7px;
+  padding-left: 10px;
   align-items: center;
   opacity: 0.6;
 }
