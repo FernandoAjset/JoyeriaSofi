@@ -4,6 +4,9 @@
     font-size: 1.5rem;
   }
 
+  header .categories-desktop{
+    display: none;
+  }
   header .logo{
     position: absolute;
     margin-left: calc(50% - 40px);

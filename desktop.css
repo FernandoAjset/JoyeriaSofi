@@ -1,0 +1,88 @@
+@media (min-width: 800px) {
+  .categories {
+    display: none;
+  }
+
+  .categories-desktop a {
+    text-decoration: none;
+    color: #c9184a;
+  }
+
+  .categories-desktop a:active {
+    color: #800f2f;
+  }
+
+  .categories-desktop a:hover {
+    color: #f53168;
+  }
+
+  header .categories-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100% - (50% + 40px));
+    height: 100%;
+    padding-right: 40px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .menu {
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+  }
+
+  .poster {
+    height: 40pc;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .card {
+    height: 15pc;
+    font-size: 1.5rem;
+  }
+
+  .product-info {
+    height: 35%;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-info figure {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-info figure img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-media-container {
+    width: auto;
+  }
+
+  .social-media figure {
+    margin-right: 20px;
+  }
+
+  .pagos {
+    width: auto;
+    position: relative;
+    left: calc(50% - 90px);
+  }
+
+  .pagos figure {
+    margin-right: 20px;
+  }
+}
