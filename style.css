@@ -39,6 +39,10 @@ header {
   font-weight: bold;
 }
 
+header .categories-desktop{
+  display: none;
+}
+
 .categories {
   width: 15%;
   height: 100%;
