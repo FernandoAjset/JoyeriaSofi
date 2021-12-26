@@ -34,6 +34,7 @@ header {
   align-items: center;
   box-shadow: 2px 2px 5px rgb(138, 135, 135);
   font-family: 'Secular One', sans-serif;
+  font-weight: bold;
 }
 
 .categories {
@@ -66,7 +67,11 @@ header {
 
 .menu a {
   text-decoration: none;
-  color: #FEC5BB;
+  color: #c9184a;
+}
+
+.menu a:active{
+  color:#800f2f;
 }
 
 .cart {
